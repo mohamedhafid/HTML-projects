@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css.css">
+    <title>SIMPLE FORM PAGE</title>
+</head>
+<body>
+    
+    <div class="model">
+        <h2>login page</h2>
+        <form action="" method="GET" >
+    <div class="input">
+    <div class="label">
+        
+            <label for="name">NAME:</label>
+            <input type="text" name="name" id="name" size="15" required minlength="5" maxlength="8">
+    </div>
+    <div class="label">
+        <label for="age">AGE:</label>
+        <input type="number" name="age" id="age" min="18" max="30" step="1" >
+    </div>
+    <div class="label">
+        <label for="email">EMAIL:</label>
+        <input type="email" name="email" id="email" required minlength="8">
+    </div>
+    <div class="label">
+        <label for="password">PASSWORD:</label>
+        <input type="password" name="password" id="password">
+    </div>
+    <div class="label">
+        <label for="phone">PHONE NO:</label>
+        <input type="tel" name="phone" id="phone" minlength="10" maxlength="10">
+    </div>
+    <div id="radio">
+        <label for="male">MALE</label>
+        <input type="radio" name="gender"  value="male" id="male">
+        <label for="female">FEMALE</label>
+        <input type="radio" name="gender"  value="female" id="female">
+    </div>
+    <div class="label">
+    <textarea name="about" id="about" cols="30" rows="5" placeholder="about..."></textarea>
+   </div>
+   <div>
+    </div>
+    <button type="submit">SUBMIT</button>
+    <button type="reset">RESET</button>
+   </div>
+
+    </form>
+    
+    </div>
+</body>
+</html>
