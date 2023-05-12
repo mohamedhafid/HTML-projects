@@ -1,0 +1,91 @@
+body{
+    background-image: url(./landscape-nature-view-background-view-window-landscape-nature-view-background-view-window-wonderful-landscape-121459679.jpg);
+    
+
+}
+.model{
+    border:1px solid black;
+    max-width: 325px;
+    
+    margin:60px auto;
+    border-radius: 5px;
+    border-color: aqua;
+    border-style: groove;
+    background-color: rgba(0, 0, 0, 0.411);
+
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 2px;
+    text-shadow: 1px 1px 2px black;
+    text-transform: capitalize;
+    color:white;
+}
+h2:first-letter{
+    font-size:30px;
+}
+label{
+    color:white;
+    font-size:1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: semi-expanded;
+    font-weight: lighter;
+    font-style: normal;
+    text-transform:capitalize;
+    padding:10px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+input{
+    margin-left:10px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: aqua;
+    text-align: justify;
+    text-indent: 2px;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bolder;
+    font-stretch: narrower;
+    background-color: rgba(180, 128, 128, 0.822);
+    
+    
+}
+button{
+    margin-left:60px;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size: larger;
+    font-style: normal;
+    font-weight:bolder;
+    font-stretch: extra-expanded;
+    color:white;
+    background-color: black;
+    max-width:100px;
+    text-transform: lowercase;
+}
+textarea{
+    background-color: rgba(139, 106, 106, 0.089);
+    color:white;
+}
+button:hover{
+    color:blue;
+}
+button:active{
+    color:white;
+}
+button:visited{
+    color:rgb(255, 232, 236);
+}
+input:hover{
+    border-color: blue;
+}
