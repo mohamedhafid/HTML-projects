@@ -1,0 +1,47 @@
+body h4{
+    margin-top:-4px;
+    font-size: 16px;
+    color:aqua
+
+}
+.row{
+    min-width:1366px;
+    height:0.1px;
+    border:0.2px solid black;
+    position:fixed;
+    top:25px;
+}
+.button{
+    display:flex;
+    justify-content:center;
+    margin-top:130px;
+    
+} 
+button{
+    font-size: 12px;
+    color:blue;
+    background-color:blueviolet;
+    border:0.8px solid brown;
+    width:fit-content;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+   
+   font-stretch: extra-condensed;
+   font-weight: bolder;
+   text-shadow: 2px 2px 2px solid black;
+
+}
+button:hover{
+    color:red;
+    width:90px;
+    height:18px;
+}
+button::first-letter{
+    font-size:12px;
+}
+#color{
+    display:flex;
+    justify-content:end;
+    margin-top:-40px;
+}

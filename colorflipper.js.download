@@ -1,0 +1,36 @@
+// creating a div tag with the javascriptcode.
+// let flipper=document.createElement("div");
+// flipper.id="change";
+// document.getElementById('container').appendChild(flipper);
+// targeting the button with the event listener.
+// const button=document.querySelector("button");
+// button.addEventListener("click",convert);
+
+// creating the function.
+function convert()
+{
+    let tag='#';
+    let arr=['a','b','c','d','e','f',0,1,2,3,4,5,6,7,8,9];
+    let iterator=1;
+    while(iterator<=6)
+    {
+        tag=tag+arr[(Math.random()*arr.length).toFixed(0)];
+        iterator++;
+    }
+    let body=document.querySelector('body');
+    body.style.backgroundColor=tag;
+
+    // let button=document.querySelector('button');
+
+    // button.style.backgroundColor=tag;
+    document.querySelector('#color').style.Color=tag;
+
+    document.querySelector('#color').innerHTML=tag;
+    let flipper=document.querySelector('.flipper');
+
+    flipper.style.Color=tag;
+
+    
+    
+}
+
